@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FXAdvisor - Currency Conversion Chatbot</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #cdd9e5;
+      max-width: 500px;
+      margin-bottom: 30px;
+      line-height: 1.5;
+    }
+
+    .chat-container {
+      margin-top: 40px;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      width: 100%;
+      max-width: 400px;
+      padding: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    }
+
+    textarea {
+      width: 100%;
+      height: 80px;
+      border-radius: 6px;
+      border: none;
+      padding: 10px;
+      resize: none;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 6px;
+      background-color: #00c2a8;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background-color: #00e6b5;
+    }
+
+    .response-box {
+      margin-top: 15px;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 6px;
+      padding: 10px;
+      min-height: 60px;
+      color: #fff;
+      text-align: left;
+      font-size: 14px;
+      white-space: pre-wrap;
+    }
+
+    .df-container {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 999;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to FXAdvisor</h1>
+  <p>Your smart currency conversion assistant. Chat with our bot or use the box below to ask questions instantly!</p>
+
+  <iframe height="430" width="350" src="https://bot.dialogflow.com/d6f06e19-829d-4806-8084-51fc206c71e9"></iframe>
+
+ 
+</body>
+</html>
